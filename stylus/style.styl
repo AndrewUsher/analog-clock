@@ -1,0 +1,59 @@
+backgroundColor = #0d1036
+color2 = #c81837
+clockFaceColor = #f88524
+color4 = #fcd549
+handColor = #39818e
+
+*
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+html
+  background: backgroundColor;
+  backgroud-size: cover;
+  font-family: 'Open Sans';
+  font-size: 10px;
+  text-align: center;
+
+body
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  font-size: 2rem;
+  min-height: 100vh;
+
+.clock
+  border: 10px solid clockFaceColor;
+  border-radius: 50%;
+  height: 30rem;
+  margin: 50px auto;
+  position: relative;
+  width: 30rem;
+
+.clock-face
+  height: 100%;
+  position: relative;
+  transform: translateY(-3px);
+  width: 100%;
+
+.hand 
+  background: handColor;
+  border-radius: 2px;
+  height: 5px;
+  position: absolute;
+  top: 50%;
+  transform: rotate(90deg);
+  transform-origin: 100%;
+  transition: all 50ms;
+  transition-timing-function: cubic-bezier(.1, 2.7, .6, 1);
+  width: 50%;
+
+.hour-hand,
+.minute-hand
+  height: 6px;
+
+p
+  font-size: 3rem;
+  font-weight: 300;
