@@ -21,10 +21,11 @@ body {
 .clock {
   border: 10px solid #f88524;
   border-radius: 50%;
-  height: 30rem;
+  height: 40rem;
   margin: 50px auto;
+  max-width: 90%;
   position: relative;
-  width: 30rem;
+  width: 40rem;
 }
 .clock-face {
   height: 100%;
@@ -35,7 +36,7 @@ body {
 .hand {
   background: #39818e;
   border-radius: 2px;
-  height: 5px;
+  height: 8px;
   position: absolute;
   top: 50%;
   transform: rotate(90deg);
@@ -49,6 +50,7 @@ body {
   height: 6px;
 }
 p {
+  font-family: sans-serif;
   font-size: 3rem;
   font-weight: 300;
   color: #efefef;
