@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "https://github.com/AndrewUsher/analog-clock.git",
   "author": "Andrew Usher <andrewusher00@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "standard-version": "9.0.0"
+  },
+  "scripts": {
+    "release": "standard-version"
+  }
 }
