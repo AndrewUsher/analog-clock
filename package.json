@@ -6,9 +6,12 @@
   "author": "Andrew Usher <andrewusher00@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "parcel-bundler": "1.12.4",
     "standard-version": "9.0.0"
   },
   "scripts": {
+    "build": "NODE_ENV=production parcel build src/index.html",
+    "dev": "parcel src/index.html",
     "release": "standard-version"
   }
 }
