@@ -1,0 +1,8 @@
+{
+  "name": "analog-clock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AndrewUsher/analog-clock.git",
+  "author": "Andrew Usher <andrewusher00@gmail.com>",
+  "license": "MIT"
+}
